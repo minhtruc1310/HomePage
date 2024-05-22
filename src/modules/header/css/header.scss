@@ -1,0 +1,27 @@
+.header {
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 0 32px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .category {
+        .item {
+            padding: 20px 50px;
+            border-left: 1px solid #aaa;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            &.active {
+                color: #bb1010;
+                border-bottom: 2px solid #bb1010;
+            }
+        }
+    }
+}

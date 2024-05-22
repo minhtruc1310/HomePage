@@ -1,0 +1,45 @@
+.about {
+    padding: 50px 200px;
+    gap: 50px;
+
+    .top-container {
+        gap: 36px;
+        align-items: center;
+        .title {
+            font-size: 45px;
+            font-weight: 500;
+        }
+    }
+
+    .bottom-container {
+        gap: 80px;
+        .list_1 {
+            justify-content: center;
+            .item {
+                padding: 28px;
+                cursor: pointer;
+                border-bottom: 2px solid #aaa;
+                font-size: 14px;
+                font-weight: 500;
+                &.active {
+                    color: #bb1010;
+                    border-bottom: 2px solid #bb1010;
+                }
+            }
+        }
+
+        .list_2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            .item {
+                gap: 24px;
+
+                .title {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    
+}

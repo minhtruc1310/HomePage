@@ -1,0 +1,23 @@
+.reference {
+    padding: 50px 200px 100px;
+    gap: 50px;
+
+    .top-container {
+        gap: 36px;
+        align-items: center;
+        .title {
+            font-size: 45px;
+            font-weight: 500;
+        }
+    }
+
+    .bottom-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        justify-items: center;
+        align-items: center;
+
+        img { width: 50px;}
+    }
+}
